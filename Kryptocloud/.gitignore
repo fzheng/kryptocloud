@@ -1,0 +1,44 @@
+# Xcode
+#
+# gitignore contributors: remember to keep this file compatible with Rubocop
+#
+# Swift Obfuscator generated file
+#
+#Swift-PM
+.build/
+#
+build/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+*.xcscheme
+*.profdata
+*.moved-aside
+
+# Carthage
+Carthage/Build
+Carthage/Checkouts
+
+# CocoaPods
+Pods/
+
+# Other
+*.app
+*.ipa
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Localizations
+*.strings
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# User-specific
+*.xcuserdatad
+.DS_Store
